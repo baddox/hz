@@ -60,7 +60,6 @@ class Funnel
       lines = lines.concat(children_lines)
     end
 
-
     return lines.join("\n")
   end
 end

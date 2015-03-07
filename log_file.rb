@@ -47,5 +47,4 @@ class LogFile
       time: time,
     }
   end
-
 end
