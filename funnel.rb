@@ -46,7 +46,7 @@ class Funnel
     ips.count
   end
 
-  def to_s(level=0, last_child=false)
+  def to_s(level=0)
     lines = [
       indent(name, level),
       indent("Total: #{total}", level + 1),
